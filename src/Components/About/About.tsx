@@ -7,7 +7,7 @@ const About: React.FC = () => {
       <h2 className="text-3xl font-bold mb-4">LEARN MORE ABOUT ME</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <img src="/path/to/your/image.jpg" alt="Code" className="w-full h-auto rounded-lg" />
+          <img src="/src/Components/About/Capture2.png" alt="Code" className="w-full h-auto rounded-lg" />
         </div>
         <div>
           <h3 className="text-2xl font-bold text-cyan-400 mb-2">Cloud Engineer</h3>

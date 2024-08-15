@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <div className="flex flex-col justify-center h-screen">
       <div className="mb-8">
-        <h1 className="text-5xl font-bold mb-4">Micah Ames</h1>
+        <h1 className="text-5xl font-bold mb-4">John Tweddle</h1>
         <p className="text-xl mb-8">I'm an enthusiastic Cloud Engineer from Virginia</p>
         <nav className="mb-8">
           {['Home', 'About', 'Resume', 'Tools', 'Portfolio', 'Contact'].map((item) => (
