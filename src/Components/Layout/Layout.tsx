@@ -20,11 +20,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <div className="container mx-auto flex justify-between items-center">
             <p className="text-3xl ml-96 -m-10 m- font-bold">John Tweddle</p>
             <nav>
-              {['Home', 'About', 'CV', 'Tools', 'Portfolio', 'Contact me'].map((item) => (
+              {['Home', 'About', 'CV', 'Tools', 'Portfolio'].map((item) => (
                 <Link
                   key={item}
                   to={`/${item.toLowerCase()}`}
-                  className={`mx-2 hover:text-yellow-400 font-bold ${location.pathname === `/${item.toLowerCase()}` ? 'text-yellow-400 border-b-2 border-yellow-400' : ''}`}
+                  className={`mx-2 text-xl hover:text-yellow-400 font-bold ${location.pathname === `/${item.toLowerCase()}` ? 'text-yellow-400 border-b-2 border-yellow-400' : ''}`}
                 >
                   {item}
                 </Link>

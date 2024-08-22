@@ -11,17 +11,17 @@ const About: React.FC = () => {
           <img src="/src/Components/About/Capture2.png" alt="Code" className="w-full h-auto rounded-lg" />
         </div>
         <div>
-          <h3 className="text-2xl font-bold text-cyan-400 mb-2">Cloud / DevOps Engineer</h3>
+          <h3 className="text-2xl font-bold text-cyan-400 mb-2">Contact me</h3>
           <div className="grid grid-cols-2 gap-4 mb-4">
-            <a href="https://linkedin.com/in/john-tweddle-079219293" className="flex items-center">
+            <a href="https://linkedin.com/in/john-tweddle-079219293" className="flex items-center hover:text-yellow-400">
               <FaLinkedin className="mr-2" /> LinkedIn
             </a>
             <div className="flex items-center"><FaPhone className="mr-2" /> +44 7961756745</div>
-            <a href="https://github.com/JDTweddle" className="flex items-center">
+            <a href="https://github.com/JDTweddle" className="flex items-center hover:text-yellow-400">
               <FaGithub className="mr-2" /> GitHub
             </a>
             <div className="flex items-center"><FaHome className="mr-2" /> Shipston-on-Stour, UK</div>
-            <a href="https://medium.com/@jdtweddle" className="flex items-center">
+            <a href="https://medium.com/@jdtweddle" className="flex items-center hover:text-yellow-400">
               <FaMedium className="mr-2" /> Medium
             </a>
             <div className="flex items-center"><FaEnvelope className="mr-2" /> jdtweddle@gmail.com</div>
@@ -40,10 +40,10 @@ const About: React.FC = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
         {[
-          { trait: 'Problem Solver', icon: <FaRocket /> },
-          { trait: 'Eager to Learn', icon: <FaBook /> },
-          { trait: 'Effective Collaborator', icon: <FaUsers /> },
-          { trait: 'Resourceful and Diligent', icon: <FaTools /> }
+          { trait: 'Problem Solver', icon: <FaRocket className="text-red-400 text-3xl"/> },
+          { trait: 'Eager to Learn', icon: <FaBook className="text-green-400 text-3xl"/> },
+          { trait: 'Effective Collaborator', icon: <FaUsers className="text-purple-400 text-3xl"/> },
+          { trait: 'Resourceful and Diligent', icon: <FaTools className="text-orange-400 text-3xl"/> }
         ].map(({ trait, icon }) => (
           <div key={trait} className="bg-gray-800 p-4 rounded-lg text-center">
             <span className="text-cyan-400 text-3xl mb-2">{icon}</span>

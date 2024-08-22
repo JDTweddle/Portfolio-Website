@@ -11,7 +11,9 @@ const Home: React.FC = () => {
           I'm a passionate Cloud and DevOps engineer.
         </p>
         <nav className="justify-center mb-8 flex flex-wrap">
-          {['Home', 'About', 'CV', 'Tools', 'Portfolio', 'Contact me'].map((item) => (
+          <p className="text-xl font-mono mr-4 text-yellow-400 border-b-2
+           border-yellow-400">Home</p>
+         {['About', 'CV', 'Tools', 'Portfolio'].map((item) => (
             <Link
               key={item}
               to={`/${item.toLowerCase()}`}
