@@ -8,10 +8,10 @@ const Home: React.FC = () => {
       <div className="text-center max-w-md mb-40 ml-20 mr-30 z-10">
         <h1 className="text-5xl font-bold mb-6">John Tweddle</h1>
         <p className="text-2xl mb-6 font-thin break-words">
-          I'm a passionate Cloud and Devops engineer.
+          I'm a passionate Cloud and DevOps engineer.
         </p>
-        <nav className="justify-center mb-10 flex flex-wrap">
-          {['Home', 'About', 'Resume', 'Tools', 'Portfolio', 'Contact me'].map((item) => (
+        <nav className="justify-center mb-8 flex flex-wrap">
+          {['Home', 'About', 'CV', 'Tools', 'Portfolio', 'Contact me'].map((item) => (
             <Link
               key={item}
               to={`/${item.toLowerCase()}`}
@@ -21,7 +21,7 @@ const Home: React.FC = () => {
             </Link>
           ))}
         </nav>
-        <div className="justify-center flex space-x-6">
+        <div className="justify-center mr-2 flex space-x-6">
           <a className="hover:text-yellow-400" href="https://github.com/JDTweddle" target="_blank" rel="noopener noreferrer">
             <FaGithub size={35} />
           </a>

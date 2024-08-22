@@ -18,13 +18,13 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       {!isHomePage && (
         <header className="p-4">
           <div className="container mx-auto flex justify-between items-center">
-            <Link to="/" className="text-6xl font-bold">John Tweddle</Link>
+            <p className="text-3xl ml-96 -m-10 m- font-bold">John Tweddle</p>
             <nav>
-              {['Home', 'About', 'Resume', 'Tools', 'Portfolio', 'Contact'].map((item) => (
+              {['Home', 'About', 'CV', 'Tools', 'Portfolio', 'Contact me'].map((item) => (
                 <Link
                   key={item}
                   to={`/${item.toLowerCase()}`}
-                  className={`mx-2 hover:text-yellow-400 ${location.pathname === `/${item.toLowerCase()}` ? 'text-yellow-400 border-b-2 border-yellow-400' : ''}`}
+                  className={`mx-2 hover:text-yellow-400 font-bold ${location.pathname === `/${item.toLowerCase()}` ? 'text-yellow-400 border-b-2 border-yellow-400' : ''}`}
                 >
                   {item}
                 </Link>
