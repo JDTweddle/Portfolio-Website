@@ -27,14 +27,19 @@ const About: React.FC = () => {
             <div className="flex items-center"><FaEnvelope className="mr-2" /> jdtweddle@gmail.com</div>
           </div>
           <p className="mb-4">
-            <div>Hi there and welcome.</div>
+            Hi there and welcome.
+            <br></br> <br></br>
             I am a Cloud and Devops Engineer with AWS,
             infrastructure as code, and DevOps Skills.
+            <br></br><br></br>
             I possess a strong analytical mindset 
-            and enjoy solving complex problems. 
+            and enjoy solving complex problems.
+            <br></br><br></br>
             I have a passion for continuous learning 
             and harnessing emerging technologies to help people 
-            and business grow. I take pride in my work and personal growth.
+            and business grow.
+            <br></br>
+            I take pride in my work and personal growth.
           </p>
         </div>
       </div>
