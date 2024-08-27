@@ -54,7 +54,7 @@ const Portfolio: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {projects.map((project) => (
           <div key={project.id} className="relative group overflow-hidden rounded-lg">
-            <div className="relative pb-[80.10%]">
+            <div className="relative h-80">
               <img 
                 src={project.image} 
                 alt={project.title} 
@@ -64,7 +64,7 @@ const Portfolio: React.FC = () => {
             <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
               <div className="relative w-full h-full p-6 flex items-center justify-center">
                 <div className="text-center z-10">
-                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                  <h3 className="text-xl font-bold mb-1">{project.title}</h3>
                   <p className="mb-4">{project.description}</p>
                   <div className="mt-4 flex justify-center space-x-4">
                     {project.githubLink && (
