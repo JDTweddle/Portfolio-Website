@@ -19,7 +19,7 @@ const projects = [
   { id: 3, image: 'src/Components/Portfolio/Multi-Region.png', 
     title: 'Multi-Region Deployment for High Availability',  
     description: 'Achieve high availability and resilience by distributing resources across multiple regions and availability zones. This setup safeguards against downtime and ensures our services remain operational even if region and or an AZ faces issues.',
-    githubLink: 'https://github.com/yourusername/smartpic',
+    githubLink: 'https://github.com/JDTweddle/Multi-Region-Deployment',
     mediumLink: 'https://medium.com/yourusername/smartpic-article'
   },
 
@@ -33,14 +33,14 @@ const projects = [
   { id: 5, image: 'src/Components/Portfolio/Docker-App.jpg', 
     title: 'Containerized Web Application Deployment', 
     description: 'A containerized web application using Docker and Terraform',
-    githubLink: 'https://github.com/yourusername/smartpic',
+    githubLink: 'https://github.com/JDTweddle/Containerized-Web-App',
     mediumLink: 'https://medium.com/yourusername/smartpic-article'
   },
 
   { id: 6, image: 'src/Components/Portfolio/Terraform-Ansible.png', 
     title: 'Automated Deployment', 
     description: 'Static Website Deployment using AWS, Terraform, and Ansible', 
-    githubLink: 'https://github.com/yourusername/smartpic',
+    githubLink: 'https://github.com/JDTweddle/Automated-Deployment',
     mediumLink: 'https://medium.com/yourusername/smartpic-article'
   },  
 ];
