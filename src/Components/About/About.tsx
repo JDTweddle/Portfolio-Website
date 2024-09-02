@@ -4,7 +4,7 @@ import { IoDocumentText, IoCodeSlash, IoServerOutline, IoGitNetwork, IoShieldChe
 
 const About: React.FC = () => {
   return (
-    <div className="bg-gray-900 p-8 rounded-lg">
+    <div className="bg-gray-900 p-8 ml-6 rounded-lg">
       <h2 className="text-3xl font-bold mb-4">LEARN MORE ABOUT ME</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>

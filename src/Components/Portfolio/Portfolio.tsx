@@ -5,14 +5,14 @@ const projects = [
   { id: 1, image: 'src/Components/Portfolio/Smart-Pic3.PNG', 
     title: 'Smart-Pic',  
     description: 'An AI-powered image recognition app, build with React that leverages AWS static hosting, a global content delivery network and many other security measures build with Terraform.',
-    githubLink: 'https://github.com/yourusername/smartpic',
+    githubLink: 'https://github.com/JDTweddle/Smart-Pic',
     mediumLink: 'https://medium.com/yourusername/smartpic-article'
   },
 
   { id: 2, image: 'src/Components/Portfolio/Incident-Response.jpg', 
     title: 'Automated-Incident-Response',  
     description: 'Leveraging AWS Lambda and other services build using Terraform to automate incident response, enhancing system reliability and operational efficiency through real-time monitoring, alerting, and automated handling of system anomalies.',
-    githubLink: 'https://github.com/yourusername/smartpic',
+    githubLink: 'https://github.com/JDTweddle/Automated-Incident-Response',
     mediumLink: 'https://medium.com/yourusername/smartpic-article'
   },
 
@@ -26,7 +26,7 @@ const projects = [
   { id: 4, image: 'src/Components/Portfolio/Portfolio-Website.png', 
     title: 'Portfolio-Website',  
     description: 'A portfolio website build from scratch using Typescript, React+Vite and Tailwind CSS. Deployed on AWS with S3, Route 53 and Cloudfront',
-    githubLink: 'https://github.com/yourusername/smartpic',
+    githubLink: 'https://github.com/JDTweddle/Portfolio-Website',
     mediumLink: 'https://medium.com/yourusername/smartpic-article'
   },
 
@@ -47,7 +47,7 @@ const projects = [
 
 const Portfolio: React.FC = () => {
   return (
-    <div className="bg-gray-900 p-8 rounded-lg">
+    <div className="bg-gray-900 ml-6 p-8 rounded-lg">
       <h2 className="text-3xl font-bold mb-4">MY PROJECTS</h2>
       <div className="mb-20">
       </div>
@@ -62,19 +62,19 @@ const Portfolio: React.FC = () => {
               />
             </div>
             <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-              <div className="relative w-full h-full p-6 flex items-center justify-center">
+              <div className="relative w-full h-full p-1 flex items-center justify-center">
                 <div className="text-center z-10">
                   <h3 className="text-xl font-bold mb-1">{project.title}</h3>
                   <p className="mb-4">{project.description}</p>
                   <div className="mt-4 flex justify-center space-x-4">
                     {project.githubLink && (
                       <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-yellow-400">
-                        <FaGithub size={24} />
+                        <FaGithub size={26} />
                       </a>
                     )}
                     {project.mediumLink && (
                       <a href={project.mediumLink} target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-yellow-400">
-                        <FaMedium size={24} />
+                        <FaMedium size={26} />
                       </a>
                     )}
                   </div>

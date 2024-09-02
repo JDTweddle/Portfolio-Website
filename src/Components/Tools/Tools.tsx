@@ -16,7 +16,7 @@ const tools = [
 
 const Tools: React.FC = () => {
   return (
-    <div className="bg-gray-900 p-10 rounded-lg">
+    <div className="bg-gray-900 ml-6 p-10 rounded-lg">
       <h2 className="text-3xl font-bold mb-4">TOOLS I WORK WITH</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {tools.map((tool) => (
