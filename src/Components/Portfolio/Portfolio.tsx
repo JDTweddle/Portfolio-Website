@@ -6,42 +6,42 @@ const projects = [
     title: 'Smart-Pic',  
     description: 'An AI-powered image recognition app, build with React that leverages AWS static hosting, a global content delivery network and many other security measures build with Terraform.',
     githubLink: 'https://github.com/JDTweddle/Smart-Pic',
-    mediumLink: 'https://medium.com/yourusername/smartpic-article'
+    mediumLink: 'https://medium.com/@jdtweddle/smatpic-09f18dc2fc7e'
   },
 
   { id: 2, image: 'src/Components/Portfolio/Incident-Response.jpg', 
     title: 'Automated-Incident-Response',  
     description: 'Leveraging AWS Lambda and other services build using Terraform to automate incident response, enhancing system reliability and operational efficiency through real-time monitoring, alerting, and automated handling of system anomalies.',
     githubLink: 'https://github.com/JDTweddle/Automated-Incident-Response',
-    mediumLink: 'https://medium.com/yourusername/smartpic-article'
+    mediumLink: 'https://medium.com/@jdtweddle/automated-incident-response-5476b84b1002'
   },
 
   { id: 3, image: 'src/Components/Portfolio/Multi-Region.png', 
     title: 'Multi-Region Deployment for High Availability',  
     description: 'Achieve high availability and resilience by distributing resources across multiple regions and availability zones. This setup safeguards against downtime and ensures our services remain operational even if region and or an AZ faces issues.',
     githubLink: 'https://github.com/JDTweddle/Multi-Region-Deployment',
-    mediumLink: 'https://medium.com/yourusername/smartpic-article'
+    mediumLink: 'https://medium.com/@jdtweddle/multi-region-deployment-e2622f2aecfd'
   },
 
   { id: 4, image: 'src/Components/Portfolio/Portfolio-Website.png', 
     title: 'Portfolio-Website',  
     description: 'A portfolio website build from scratch using Typescript, React+Vite and Tailwind CSS. Deployed on AWS with S3, Route 53 and Cloudfront',
     githubLink: 'https://github.com/JDTweddle/Portfolio-Website',
-    mediumLink: 'https://medium.com/yourusername/smartpic-article'
+    mediumLink: 'https://medium.com/@jdtweddle/portfolio-website-03c602d94036'
   },
 
   { id: 5, image: 'src/Components/Portfolio/Docker-App.jpg', 
     title: 'Containerized Web Application Deployment', 
     description: 'A containerized web application using Docker and Terraform',
     githubLink: 'https://github.com/JDTweddle/Containerized-Web-App',
-    mediumLink: 'https://medium.com/yourusername/smartpic-article'
+    mediumLink: 'https://medium.com/@jdtweddle/containerized-web-appl-6ddfa9719ab1'
   },
 
   { id: 6, image: 'src/Components/Portfolio/Terraform-Ansible.png', 
     title: 'Automated Deployment', 
     description: 'Static Website Deployment using AWS, Terraform, and Ansible', 
     githubLink: 'https://github.com/JDTweddle/Automated-Deployment',
-    mediumLink: 'https://medium.com/yourusername/smartpic-article'
+    mediumLink: 'https://medium.com/@jdtweddle/automated-deployment-de286df36bf1'
   },  
 ];
 

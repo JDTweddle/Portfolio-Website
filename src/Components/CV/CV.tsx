@@ -63,8 +63,8 @@ const CV: React.FC = () => {
             <p className="italic">2015 - 2017</p>
             <p className="mb-2">Shell Energy</p>
             <ul className="list-disc list-outside">
-              <li>Investigated unresolved technical issues and worked with stakeholders to resolve long-standing faults.</li>
-              <li>Collaborated with sales teams to help grow the company's new product.</li>
+              <li>Investigating unresolved technical issues and working with stakeholders to resolve long-standing faults.</li>
+              <li>Collaborating with sales teams to help grow the company's new product.</li>
             </ul>
           </div>
           <div className="mb-4">
@@ -72,7 +72,7 @@ const CV: React.FC = () => {
             <p className="italic">2013 - 2015</p>
             <p className="mb-2">Sitel</p>
             <ul className="list-disc list-outside">
-              <li>Assisted sales and technical advisers with queries and training they required.</li>
+              <li>Assisting sales and technical advisers with tricky queries as well as training .</li>
               <li>Responsible for day-to-day reports and supervision of the support center.</li>
               <li>Selected to spearhead a small Broadband pilot project for one of our largest stakeholders.</li>
             </ul>
