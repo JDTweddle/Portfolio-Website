@@ -53,9 +53,9 @@ const CV: React.FC = () => {
             <p className="italic">2017 - Present</p>
             <p className="mb-2">Openreach (BT)</p>
             <ul className="list-disc list-outside">
-              <li>Operating both independently and in teams to plan, commission, repair, and maintain the Openreach Fiber and Telecoms networks.</li>
+              <li>Operating both independently and in teams to plan, commission, repair, and maintain the Openreach Fiber and Telecommunications networks.</li>
               <li>Lead "Brickwall-case" handler, focusing largely on the business and corporate sectors.</li>
-              <li>Worked on networks for the BBC, Jaguar-LandRover, the Ministry of Defence, the US Air Force, and influential estates.</li>
+              <li>Working on networks for the BBC, Jaguar-LandRover, the Ministry of Defence, the US Air Force, and the estates of some influential people.</li>
             </ul>
           </div>
           <div className="mb-4">
@@ -72,9 +72,9 @@ const CV: React.FC = () => {
             <p className="italic">2013 - 2015</p>
             <p className="mb-2">Sitel</p>
             <ul className="list-disc list-outside">
-              <li>Assisting sales and technical advisers with tricky queries as well as training .</li>
+              <li>Assisting sales and technical advisers with tricky queries as well as training new staff .</li>
               <li>Responsible for day-to-day reports and supervision of the support center.</li>
-              <li>Selected to spearhead a small Broadband pilot project for one of our largest stakeholders.</li>
+              <li>Selected to spearhead a small Broadband pilot campaign for one of our largest stakeholders.</li>
             </ul>
           </div>
           <div className="mb-4">
