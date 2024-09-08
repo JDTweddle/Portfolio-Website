@@ -5,9 +5,9 @@ const CV: React.FC = () => {
     <div className="bg-gray-900 p-8 ml-6 rounded-lg text-white">
       <h2 className="text-3xl font-bold mb-4">My CV</h2>
       <a 
-        href="src/Components/CV/CV-John-Tweddle.pdf" 
+        href="/CV-John-Tweddle.pdf"
         download="CV-John-Tweddle.pdf"
-        className="inline-block bg-cyan-400 text-black px-4 py-2 rounded mb-4 hover:bg-yellow-400 transition-colors"
+        className="inline-block bg-cyan-400 text-blackerrrdfdfdfdferdfqwerwerwerwerwerwerwerwerwerwerwerqwredfdferdfffffer px-4 py-2 rounded mb-4 hover:bg-yellow-400 transition-colors"
       >
         Download CV
       </a>

@@ -17,6 +17,8 @@ resource "aws_cloudfront_distribution" "cdn" {
         }
     }
 
+    aliases = [var.domain_name, "www.${var.domain_name}"]
+
     enabled             = true
     is_ipv6_enabled     = true
     default_root_object = "index.html"
@@ -59,22 +61,6 @@ resource "aws_cloudfront_distribution" "cdn" {
 
     depends_on = [aws_acm_certificate_validation.cert]
 }
-
-    # replace with default certificate if you want to use a registered domain name
-    /*viewer_certificate {
-        acm_certificate_arn = aws_acm_certificate.cert.arn
-        ssl_support_method  = "sni-only"
-    }*/
-
-    # remove comments to enable waf with waf.tf file
-    /*web_acl_id = aws_wafv2_web_acl.cloudfront_waf.arn
-
-
-    tags = {
-        Name = "cloudfront-distribution"
-    }
-
-    depends_on = [aws_acm_certificate_validation.cert*/
 
 # cloudfront security headers
 resource "aws_cloudfront_response_headers_policy" "security_headers_policy" {

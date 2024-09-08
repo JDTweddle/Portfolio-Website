@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAws, FaDocker, FaGithub, FaTerminal,FaReact } from 'react-icons/fa';
-import { SiTerraform, SiAnsible, SiKubernetes, SiPrometheus, SiGrafana } from 'react-icons/si';
+import { SiTerraform, SiAnsible, SiPrometheus, SiGrafana } from 'react-icons/si';
 
 const tools = [
   { name: 'Terraform', description: 'Proficient in using Terraform for infrastructure as code (IaC), automating the provisioning and management of cloud resources, and ensuring scalable, reproducible infrastructure deployments.', icon: <SiTerraform className="text-purple-600 text-4xl mb-4"/> },
