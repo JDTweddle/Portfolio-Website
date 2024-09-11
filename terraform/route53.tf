@@ -1,7 +1,7 @@
 
 # leverage route 53 for DNS
 data "aws_route53_zone" "existing" {
-  zone_id = "Z03168013FLKPSCYRUDSY" 
+  zone_id = "your zone ID" 
 }
 
 resource "aws_route53_record" "www" {
