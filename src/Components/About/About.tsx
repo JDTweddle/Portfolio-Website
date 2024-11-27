@@ -30,7 +30,7 @@ const About: React.FC = () => {
             Hi there and welcome.
             <br></br> <br></br>
             I am a Cloud and Devops Engineer with AWS,
-            infrastructure as code, and DevOps Skills.
+            infrastructure as code, and other interesting skills.
             <br></br><br></br>
             I possess a strong analytical mindset 
             and enjoy solving complex problems.
