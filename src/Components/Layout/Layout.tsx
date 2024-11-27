@@ -18,7 +18,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       {!isHomePage && (
         <header className="p-4">
           <div className="container mx-auto flex justify-between items-center">
-            <p className="text-3xl ml-96 -m-10 m- font-bold">John Tweddle</p>
+            <p className="text-3xl ml-96 -m-10 m- font-bold"></p>
             <nav>
               {['Home', 'About', 'CV', 'Tools', 'Portfolio'].map((item) => (
                 <Link
