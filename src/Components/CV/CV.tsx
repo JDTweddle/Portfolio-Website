@@ -50,7 +50,7 @@ const CV: React.FC = () => {
           <h3 className="text-2xl font-bold text-cyan-400 mb-4">Professional Experience</h3>
           <div className="mb-4">
             <h4 className="text-xl font-bold">ADVANCED ENGINEER</h4>
-            <p className="italic">2017 - Present</p>
+            <p className="italic">2017 - 2024</p>
             <p className="mb-2">Openreach (BT)</p>
             <ul className="list-disc list-outside">
               <li>Operating both independently and in teams to plan, commission, repair, and maintain the Openreach Fiber and Telecommunications networks.</li>
@@ -60,7 +60,7 @@ const CV: React.FC = () => {
           </div>
           <div className="mb-4">
             <h4 className="text-xl font-bold">BROADBAND SPECIALIST</h4>
-            <p className="italic">2015 - 2017</p>
+            <p className="italic">2016 - 2017</p>
             <p className="mb-2">Shell Energy</p>
             <ul className="list-disc list-outside">
               <li>Investigating unresolved technical issues and working with stakeholders to resolve long-standing faults.</li>
@@ -69,7 +69,7 @@ const CV: React.FC = () => {
           </div>
           <div className="mb-4">
             <h4 className="text-xl font-bold">CAMPAIGN SUPERVISOR</h4>
-            <p className="italic">2013 - 2015</p>
+            <p className="italic">2015 - 2016</p>
             <p className="mb-2">Sitel</p>
             <ul className="list-disc list-outside">
               <li>Assisting sales and technical advisers with tricky queries as well as training new staff .</li>
@@ -79,11 +79,11 @@ const CV: React.FC = () => {
           </div>
           <div className="mb-4">
             <h4 className="text-xl font-bold">Laboratory Calibration Technician</h4>
-            <p className="italic">2010 - 2013</p>
+            <p className="italic">2013 - 2014</p>
             <p className="mb-2">M&C Laboratories</p>
             <ul className="list-disc list-outside">
-              <li>Repairing and calibrating high-end Lab equipment for universities, hospitals and large companies such as BP, Cadburys, Colgate.</li>
-              <li>Experience in various calibration parameters such as viscosity, temperature, weight and ignition flash points.
+              <li>Repairing and calibrating high-end Lab equipment for universities, hospitals, and large companies such as BP, Cadburys, and Colgate.</li>
+              <li>Experience in various calibration parameters such as viscosity, temperature, weight, and ignition flash points.
                   Installation and support of remote temperature data logging.</li>
             </ul>
           </div>
